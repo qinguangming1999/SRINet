@@ -17,8 +17,8 @@ Inference</b>
 ## Run the code
 for the multipltex graph implement:
 
-python train_SRINet.py 
+**python train_SRINet.py** 
 
 for the  single-layer graph implement:
 
-python train_SRINet_SL.py 
+**python train_SRINet_SL.py** 
