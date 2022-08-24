@@ -16,7 +16,7 @@ Inference</b>
   * scipy
 ## Run the code
 
-for the multipltex graph implement:
+for the multipltex graph implement:aaaa
 
 **python train_SRINet.py** 
 
