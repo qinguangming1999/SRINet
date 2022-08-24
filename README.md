@@ -15,7 +15,7 @@ Inference</b>
   * numpy
   * scipy
  
- ## Run the code
+## Run the code
 
 for the multipltex graph implement:
 
