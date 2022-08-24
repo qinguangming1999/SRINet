@@ -25,4 +25,3 @@ for the  single-layer graph implement:
 
 **python train_SRINet_SL.py** 
 
-test
