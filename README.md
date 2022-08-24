@@ -16,10 +16,12 @@ Inference</b>
   * scipy
 ## Run the code
 
-for the multipltex graph implement:aaaa
+for the multipltex graph implement:
 
 **python train_SRINet.py** 
 
 for the  single-layer graph implement:
 
 **python train_SRINet_SL.py** 
+
+test
