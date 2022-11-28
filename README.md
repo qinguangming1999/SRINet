@@ -25,3 +25,6 @@ for the  single-layer graph implement:
 
 **python train_SRINet_SL.py** 
 
+## Contact
+
+Please email qinguangming@stu.ouc.edu.cn if you have any questions
