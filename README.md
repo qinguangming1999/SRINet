@@ -27,4 +27,4 @@ for the  single-layer graph implement:
 
 ## Contact
 
-Please email qinguangming@stu.ouc.edu.cn if you have any questions
+Please email qinguangming0413@163.com or qinguangming@stu.ouc.edu.cn if you have any questions
