@@ -100,8 +100,6 @@ for epoch in range(args.epochs):
         optimizer.apply_gradients(zip(grads, model.trainable_variables))
     emb, pred = model.call(None, training=False)
 
-    edges_volumn = tf.reduce_sum(model.maskes[0])
-    print('edge_vol', edges_volumn.numpy())
 
     correct_prediction = tf.equal(tf.cast(tf.greater_equal(tf.sigmoid(pred), 0.5), tf.int32),
                                   tf.cast(flatten_label_tensor_friendship, tf.int32))
