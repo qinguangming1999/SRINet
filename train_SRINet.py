@@ -103,9 +103,6 @@ for epoch in range(args.epochs):
         grads = tape.gradient(loss, model.trainable_variables)
         optimizer.apply_gradients(zip(grads, model.trainable_variables))
     emb,pred = model.call(None, training=False)
-    for i in range(len(adj_mul)):
-        edges_volumn = tf.reduce_sum(model.maskes_mul[i][0])
-        print('edge_vol' + str(i),edges_volumn.numpy())
 
     correct_prediction = tf.equal(tf.cast(tf.greater_equal(tf.sigmoid(pred), 0.5), tf.int32),
                                   tf.cast(flatten_label_tensor_friendship, tf.int32))
